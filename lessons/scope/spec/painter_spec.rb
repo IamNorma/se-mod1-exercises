@@ -1,5 +1,5 @@
-require './lib/painter'
-require './lib/paint'
+require_relative '../lib/painter'
+require_relative '../lib/paint'
 
 describe Painter do
   it 'test_it_exists' do
